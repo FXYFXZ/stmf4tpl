@@ -315,6 +315,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
+          <state>$PROJ_DIR$\App</state>
           <state>$STM_F4_LIB$\CMSIS\Include</state>
           <state>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Inc</state>
           <state>$STM_F4_LIB$\CMSIS\Device\ST\STM32F4xx\Include</state>
@@ -1916,6 +1917,15 @@
     </settings>
   </configuration>
   <group>
+    <name>App</name>
+    <file>
+      <name>$PROJ_DIR$\App\Board.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\App\main.cpp</name>
+    </file>
+  </group>
+  <group>
     <name>Board</name>
     <file>
       <name>$STM_F4_LIB$\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f40_41xxx.s</name>
@@ -1925,14 +1935,23 @@
     </file>
   </group>
   <group>
+    <name>HAL</name>
+    <file>
+      <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</name>
+    </file>
+    <file>
+      <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</name>
+    </file>
+  </group>
+  <group>
     <name>LL</name>
     <file>
       <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c</name>
     </file>
+    <file>
+      <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c</name>
+    </file>
   </group>
-  <file>
-    <name>$PROJ_DIR$\main.cpp</name>
-  </file>
   <file>
     <name>$PROJ_DIR$\..\..\C\main.ENU.projtempl</name>
   </file>
