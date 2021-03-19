@@ -2115,6 +2115,12 @@
   <group>
     <name>HAL</name>
     <file>
+      <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</name>
+    </file>
+    <file>
+      <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</name>
+    </file>
+    <file>
       <name>$STM_F4_LIB$\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</name>
     </file>
     <file>
